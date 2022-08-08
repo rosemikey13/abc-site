@@ -5,22 +5,35 @@
 
 .container{
     width: 100%;
-    height: 100%;
    display: flex;
    flex-direction: row;
    align-items: center;
    justify-content: center;
 }
 
-.links{
+.links {
     width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: row;
-    margin-right: 4em;
-    margin-left: 4em;
+    
+}
+
+.links img {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 2em;
+    margin-left: .25em;
+    margin-top: 0em;
 }
 
 .active, .active:hover {
     background-color: #4a576b;
 }
+
+a {
+    margin-top: .5em;
+    margin-right: .25em;
+}
+

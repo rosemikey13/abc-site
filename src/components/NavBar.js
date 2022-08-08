@@ -8,8 +8,9 @@ const NavBar = () => {
  
     return(
        <section className={styles.container}>
-        <img src={Logo} className={styles.image} alt="ABC Company Logo"/>
+        
         <div className={styles.links}>
+            <img src={Logo} className={styles.image} alt="ABC Company Logo"/>
             <NavLink to="home" className={(NavButton) => NavButton.isActive ? styles.active : ""}>Home</NavLink>
             <NavLink className={(NavButton) => NavButton.isActive ? styles.active : ""} to="pricing">Pricing</NavLink>
             <NavLink className={(NavButton) => NavButton.isActive ? styles.active : ""} to="aboutus">About Us</NavLink>
